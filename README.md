@@ -3,4 +3,4 @@
  
  
 ##### In order to install just download ZIP-file, unzip it and load as an extension into Chrome web browser.
-![Prewiew](/../main/exChange_preview.png)
+![Prewiew](/../main/img/preview.png)
