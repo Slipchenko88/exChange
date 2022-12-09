@@ -1,0 +1,110 @@
+html {
+    height: 165px;
+    width: 195px;
+    background-color: black;
+}
+
+.table {
+    align: "center";
+    border: 1px solid;
+    border-color: #2eab34;
+}
+
+th, td, tr {
+    border: 1px solid;
+    border-spacing: 2px;
+    padding: 3px;
+    border-color: #2eab34;
+}
+
+.buy {
+    color: #2eab34;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+.sell {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+.txt {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+.img {
+    margin: 5px;
+    float: inherit;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 25px 10px 10px;
+}
+
+.tabs {
+    min-width: 320px;
+    max-width: 800px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.tabs > section {
+    display: none;
+    padding: 5px;
+    background: black;
+}
+
+.tabs > input {
+    display: none;
+    position: absolute;
+}
+
+.tabs > label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 5px 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: #2eab34;
+    font-family: Helvetica
+}
+
+.tabs > label:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* Styles for active tab */
+.tabs > input:checked + label {
+    border-top: 2px solid #2eab34;
+    background: black;
+}
+
+/* Sections activation with a pseudo-class :checked */
+#tab1:checked ~ #pb,
+#tab2:checked ~ #mono {
+    display: block;
+}
+
+* {
+    user-select: none;
+}

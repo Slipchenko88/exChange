@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "/img/exchange128.png",
+      "default_popup": "/html/popup.html"
+   },
+   "description": "Currency exchange rates from PrivatBank and MonoBank",
+   "icons": {
+      "128": "/img/exchange128.png",
+      "256": "/img/exchange256.png"
+   },
+   "manifest_version": 2,
+   "name": "Currency exchange rates",
+   "short_name": "ExChange",
+   "permissions": [ "activeTab", "tabs", "http://*/*", "https://*/*" ],
+   "version": "0.2",
+   "web_accessible_resources": [ "/img/*", "/html/*", "/css/*" ]
+}
